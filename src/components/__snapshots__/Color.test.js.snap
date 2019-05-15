@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Color Component renders a color 1`] = `
+<dl>
+  <dt>
+    Name
+  </dt>
+  <dd>
+    Red
+     
+    <div
+      style={
+        Object {
+          "backgroundColor": "#FF0000",
+          "display": "flex",
+          "height": "1em",
+          "width": "1em",
+        }
+      }
+    />
+  </dd>
+  <dt>
+    RGB
+  </dt>
+  <dd>
+    <p>
+      Red - 
+      255
+    </p>
+    <p>
+      Green - 
+      0
+    </p>
+    <p>
+      Blue - 
+      0
+    </p>
+  </dd>
+</dl>
+`;
