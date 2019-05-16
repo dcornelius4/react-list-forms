@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Sidebar from './Sidebar';
-
+import style from './App.css';
 
 export default function App() {
   const [selected, updateSelected] = useState('home');
@@ -13,7 +13,7 @@ export default function App() {
   };
 
   return (
-    <section>
+    <section className={style.App}>
       <Sidebar>
         <a onClick={() => updateSelected('Home')} href="#">Home</a>
         <a onClick={() => updateSelected('About')} href="#">About</a>
